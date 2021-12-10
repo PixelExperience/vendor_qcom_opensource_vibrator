@@ -29,6 +29,7 @@
 
 #define LOG_TAG "vendor.qti.vibrator"
 
+#include <cutils/properties.h>
 #include <dirent.h>
 #include <inttypes.h>
 #include <linux/input.h>
